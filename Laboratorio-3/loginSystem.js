@@ -1,3 +1,13 @@
+/**
+ * lab 3 Ingenieria de sofware
+ * Usuario y control de usuario
+ * 
+ * @outor Garcia Vallejos Jose Armando
+ * @Version 1.0
+ * @Date 2024/03/08
+ * @lenguaje JavaScrip
+ */
+
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Evitar que el formulario se envíe
 
