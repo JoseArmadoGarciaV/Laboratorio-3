@@ -1,6 +1,6 @@
 /**
- * lab 3 Ingenieria de sofware
- * Usuario y control de usuario
+ * lab 4 ingenieria  de software
+ * log in system
  * 
  * @outor Garcia Vallejos Jose Armando
  * @Version 1.0
@@ -9,7 +9,7 @@
  */
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evitar que el formulario se envíe
+    event.preventDefault();
 
     // get user and password values
     const username = document.getElementById('username').value;
